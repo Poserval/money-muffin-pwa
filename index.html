@@ -1,67 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="./icon-192.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Money Muffin</title>
-    
-    <!-- PWA additions -->
-    <link rel="manifest" href="./manifest.webmanifest" />
-    <meta name="theme-color" content="#4f46e5"/>
-    <link rel="apple-touch-icon" href="./icon-192.png">
-    
-    <script src="https://cdn.tailwindcss.com"></script>
+<html>
+<body>
+    <h1>Тест работает!</h1>
     <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              'primary': '#4f46e5',
-              'secondary': '#10b981',
-              'danger': '#ef4444',
-              'info': '#3b82f6',
-              'warning': '#f59e0b',
-              'success': '#22c55e',
-              'purple': '#8b5cf6',
-              'pink': '#ec4899',
-              'orange': '#f97316',
-              'yellow': '#eab308',
-              'lime': '#84cc16',
-              'cyan': '#06b6d4',
-              'teal': '#14b8a6',
-              'fuchsia': '#d946ef',
-              'rose': '#f43f5e',
-              'sky': '#0ea5e9',
-              'black': '#1e293b',
-              'gray': '#64748b',
-              'brown': '#78350f',
-              'background': '#f1f5f9',
-              'card': '#ffffff',
-              'text-primary': '#1e293b',
-              'text-secondary': '#64748b',
-            }
-          }
-        }
-      }
+        console.log("JavaScript работает!");
     </script>
-    
-    <!-- Babel для JSX -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    
-    <!-- Исправленные import maps -->
-    <script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@18.2.0",
-    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
-    "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime"
-  }
-}
-</script>
-</head>
-<body class="bg-background text-text-primary">
-    <div id="root"></div>
-    <script type="text/babel" data-type="module" src="./index.js"></script>
 </body>
 </html>
